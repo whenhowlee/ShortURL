@@ -22,8 +22,8 @@ URLS = (
 DATABASES = {
     'dbn': 'mysql',
     'db': 'shorturl',
-    'user': 'py',
-    'pw': 'py_passwd',
+    'user': 'wh',
+    'pw': 'wh_passwd',
     'host': 'localhost',
     'port': 3306,
 }
