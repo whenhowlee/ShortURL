@@ -2,8 +2,8 @@
 
 ## clone code
 
-    cd /home/www/
-    git clone https://github.com/mozillazg/ShortURL.git
+    cd /alidata/www/
+    git clone https://github.com/whenhowlee/ShortURL.git
 
 ## install dependencies
 
@@ -16,20 +16,20 @@ use shorturl/db.sql
 
 ## configure
 
-    mkdir /home/www/shorturl-conf/
-    cp -r conf/* /home/www/shorturl-conf/
+    mkdir /alidata/www/shorturl-conf/
+    cp -r conf/* /alidata/www/shorturl-conf/
 
 ### nginx
 
-add `include /home/www/*-conf/nginx.conf;` to `http {...}` (`/etc/nginx/nginx.conf`)
+add `include /alidata/www/*-conf/nginx.conf;` to `http {...}` (`/etc/nginx/nginx.conf`)
 
-change **server_name** (`/home/www/shorturl-conf/nginx.conf`)
+change **server_name** (`/alidata/www/shorturl-conf/nginx.conf`)
 
     nginx -s reload
 
 ## run
 
-    cd /home/www/shorturl-conf/
+    cd /alidata/www/shorturl-conf/
     chmod +x *.sh
 * start
   `./start.sh`
