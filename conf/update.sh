@@ -9,7 +9,7 @@ pip install -r requirements.txt
 cd ../shorturl-conf/
 
 
-chown www:www //www -R
+chown www:www /alidata/www -R
 
 
 
