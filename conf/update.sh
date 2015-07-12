@@ -9,7 +9,7 @@ pip install -r requirements.txt
 cd ../shorturl-conf/
 
 
-chown www-data:www-data /home/www -R
+chown www:www //www -R
 
 
 
