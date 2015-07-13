@@ -41,7 +41,7 @@ change **server_name** (`/alidata/www/shorturl-conf/nginx.conf`)
   `./update.sh`
 
 ## 数据说明
->0.01 (1): SELECT shorten FROM url WHERE expand = 'http://4instructor.com/'
+'0.01 (1): SELECT shorten FROM url WHERE expand = 'http://4instructor.com/''
 0.05 (2): INSERT INTO url (shorten, expand) VALUES ('', 'http://4instructor.com/')
 0.01 (3): SELECT last_insert_id();
 0.02 (4): UPDATE url SET shorten = 'eRASX' WHERE id=1L
