@@ -39,3 +39,5 @@ change **server_name** (`/alidata/www/shorturl-conf/nginx.conf`)
   `./restart.sh`
 * update code
   `./update.sh`
+
+## 
